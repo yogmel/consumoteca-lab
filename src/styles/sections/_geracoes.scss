@@ -1,0 +1,26 @@
+.content-geracao {
+  .content-desc {
+    &__cta {
+      max-width: 140px; 
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      margin-bottom: -4rem;
+      p {
+        margin: 0;
+      }
+    }
+
+    &__text {
+      justify-content: flex-start;
+    }
+  }
+  
+  &__text {
+    max-width: 280px;
+    margin-left: 8rem;
+  }
+
+}
