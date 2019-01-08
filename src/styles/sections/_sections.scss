@@ -1,22 +1,24 @@
  .content {
-   min-height: 100vh;
-   padding-top: 10rem;
+  min-height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
  }
 
- 
  .content-footer {
-   padding-left: 3rem;
+   padding-left: 10rem;
    img {
      max-width: 8rem;
    }
  }
 
-
- .header-footer {
+ .content-footer {
   text-transform: uppercase;
   padding: 0 7rem;
   max-width: 450px;
-  margin-top: -10rem;
+  margin-top: -5rem;
   font-size: 1.5rem;
   line-height: 1.4;
 

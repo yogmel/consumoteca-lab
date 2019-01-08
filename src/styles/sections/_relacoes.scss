@@ -1,0 +1,30 @@
+.content-relacoes {
+  .content-desc {
+    &__text {
+      justify-content: center;
+      margin: 3rem 0;
+      p {
+        max-width: 470px;
+        text-align: center;
+      }
+    }
+    
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      &-two {
+        padding-left: 12rem;
+      }
+    }
+
+    &__cta {
+      max-width: 140px; 
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+
+}
