@@ -1,0 +1,46 @@
+header {
+  min-height: 100vh;
+  padding: 5rem 0;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 900px;
+    }
+  }
+}
+ 
+
+.header-footer {
+  text-transform: uppercase;
+  padding: 0 7rem;
+  max-width: 450px;
+  margin-top: -10rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+
+  &__social-caixa {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__social-media {
+    display: flex;
+  }
+
+  &__social-link {
+    border: 1px solid black;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin-right: 5px;
+  }
+
+  &__social-link img {
+    max-width: 25px;
+  }
+  
+  a {
+    font-size: inherit;
+  }
+}
