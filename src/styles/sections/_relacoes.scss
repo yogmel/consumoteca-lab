@@ -1,9 +1,13 @@
 .content-relacoes {
+  &__title {
+    font-family: 'de_valenciaregular', Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+  }
   .content-desc {
     &__text {
       justify-content: center;
       margin: 3rem 0;
-      p {
+      p { 
         max-width: 470px;
         text-align: center;
       }

@@ -1,6 +1,14 @@
 .content-geracao {
   .content-desc {
+    &__title {
+      font-family: 'cocogooseregular', Arial, Helvetica, sans-serif;
+      text-align: center;
+      display: flex;
+      font-size: 5rem;
+    }
     &__cta {
+      line-height: 1;
+      font-weight: bold;
       max-width: 140px; 
       display: flex;
       justify-content: flex-end;

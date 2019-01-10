@@ -60,6 +60,12 @@
   &-one {
     font-family: 'Impact', Arial, Helvetica, sans-serif;
   }
+  &-two {
+    font-family: 'Cooper Black', Arial, Helvetica, sans-serif;
+  }
+  &-three {
+    font-family: 'Brush Script MT', cursive;
+  }
 }
 
 .content-espiral {
@@ -68,6 +74,8 @@
       max-width: 340px;
     }
     & > div:last-child {
+      line-height: 1;
+      font-weight: bold;
       max-width: 140px;
       display: flex;
       justify-content: flex-end;
