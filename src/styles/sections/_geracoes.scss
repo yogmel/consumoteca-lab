@@ -4,7 +4,13 @@
       font-family: 'cocogooseregular', Arial, Helvetica, sans-serif;
       text-align: center;
       display: flex;
+      justify-content: center;
       font-size: 5rem;
+      h2 {
+        @media screen and (max-width: $tablet-screen) {
+          font-size: 5rem;
+        }
+      }
     }
     &__cta {
       line-height: 1;
@@ -16,6 +22,11 @@
       text-align: center;
       flex-direction: column;
       margin-bottom: -4rem;
+      @media screen and (max-width: $tablet-screen) {
+        margin-bottom: 0;
+        max-width: 100%;
+        flex-direction: row;
+      }
       p {
         margin: 0;
       }
@@ -23,12 +34,18 @@
 
     &__text {
       justify-content: flex-start;
+      @media screen and (max-width: $tablet-screen) {
+        flex-direction: column-reverse;
+      }
     }
   }
   
   &__text {
     max-width: 280px;
     margin-left: 8rem;
+    @media screen and (max-width: $tablet-screen) {
+      margin-left: 0;
+    }
   }
 
 }

@@ -19,3 +19,17 @@ a {
 .img-responsive {
   width: 100%;
 }
+
+.display-mobile {
+  display: none;
+  @media screen and (max-width: $tablet-screen) {
+    display: block;
+  }
+}
+
+.display-desktop {
+  display: block;
+  @media screen and (max-width: $tablet-screen) {
+    display: none;
+  }
+}

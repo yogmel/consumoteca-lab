@@ -5,9 +5,27 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      max-width: 900px;
+    @media screen and (max-width: $tablet-screen) {
+      flex-direction: column;
     }
+    img {
+      max-height: 500px;
+      &:first-child {
+        @media screen and (max-width: $tablet-screen) {
+          width: 70%;
+          max-width: 340px;
+        }
+      }
+      &:last-child {
+        @media screen and (max-width: $tablet-screen) {
+          position: relative;
+          top: -8rem;
+          max-width: 185px;
+          margin-bottom: -7rem;
+        }
+      }
+    }
+    
   }
 }
  
@@ -17,27 +35,36 @@ header {
   padding: 0 7rem;
   max-width: 450px;
   margin-top: -10rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.4;
+ 
+  @media screen and (max-width: $tablet-screen) {
+    text-align: center;
+    margin: 0 auto;
+  }
 
   &__social-caixa {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
   &__social-media {
     display: flex;
+    @media screen and (max-width: $tablet-screen) {
+      justify-content: center;
+      margin-top: 3rem;
+    }
   }
 
   &__social-link {
     border: 1px solid black;
     padding: .5rem;
     border-radius: 5rem;
-    margin-right: 5px;
+    margin-right: 10px;
   }
 
   &__social-link img {
-    max-width: 25px;
+    max-width: 15px;
   }
  
   a {

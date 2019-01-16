@@ -2,6 +2,9 @@
   &__title {
     font-family: 'de_valenciaregular', Arial, Helvetica, sans-serif;
     font-size: 7rem;
+    @media screen and (max-width: $tablet-screen) {
+      font-size: 6rem;
+    }
   }
   .content-desc {
     &__text {
@@ -16,11 +19,20 @@
     &__title {
       display: flex;
       justify-content: space-between;
-      &-two {
+      @media screen and (max-width: $tablet-screen) {
+        justify-content: center;
+        flex-direction: column;
+      }
+      h2 {
+        @media screen and (max-width: $tablet-screen) {
+          margin-bottom: 1rem;
+        }
+      }
+      &-dois {
         padding-left: 12rem;
       }
     }
-
+ 
     &__cta {
       max-width: 140px; 
       display: flex;
@@ -28,6 +40,11 @@
       align-items: center;
       text-align: center;
       flex-direction: column;
+      @media screen and (max-width: $tablet-screen) {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 100%;
+      }
     }
   }
 

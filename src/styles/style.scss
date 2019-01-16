@@ -14,8 +14,8 @@
   font-style: normal;
 } 
  
-@import './base/base';
 @import './base/variables';
+@import './base/base';
 @import './sections/header';
 @import './sections/layout';
 @import './sections/sections';
