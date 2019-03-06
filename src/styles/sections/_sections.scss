@@ -1,7 +1,7 @@
  .content {
   min-height: 100vh;
-  padding-top: 10rem;
-  padding-bottom: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -56,4 +56,10 @@
   a {
     font-size: inherit;
   }
+}
+
+.nav-arrow {
+  max-width: 4rem;
+  margin: 3rem auto 0 auto;
+  display: block;
 }

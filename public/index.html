@@ -17,10 +17,14 @@
     section-footer / section-footer__caixa
   -->
 
+
+  <!-- HEADER -->
   <header class="header bg-dark">
     <div class="container">
       <img src="./img/logo/logo-lab01.png" alt="Logo da Consomuteca Lab">
-      <img src="./img/doors/porta2.gif" alt="Logo da Consomuteca Lab">
+      <a href="#secaoEspiral">
+          <img src="./img/doors/porta2.gif" alt="Logo da Consomuteca Lab">
+      </a>
     </div>
     <div class="header-footer">
       <h2>Consumoteca Lab</h2>
@@ -38,7 +42,9 @@
     </div>
   </header>
 
-  <section class="content content-espiral bg-orange">
+
+  <!-- ESPIRAL DA VERDADE -->
+  <section id="secaoEspiral" class="content content-espiral bg-orange">
     <div class="content__header display-mobile">
       <img src="./img/logo/mini-lab.png" class="img-responsive" alt="">
     </div>
@@ -52,8 +58,10 @@
         </div>
         <div class="content-img display-mobile">
           <div>
-            <img src="./img/doors/01.png" class="img-responsive content-img__porta" alt="Porta com cor vermelha">
-            <p>Ver o estudo completo</p>
+            <a href="#secaoRelacoes">
+              <img src="./img/doors/01.png" class="img-responsive content-img__porta" alt="Porta com cor vermelha">
+              <p>Ver o estudo completo</p>
+            </a>
           </div>
         </div>
         <div class="content-desc__text">
@@ -89,10 +97,14 @@
       </div>
       <a href="http://consumoteca.com.br" class="content-footer__link">www.consumoteca.com.br</a>
     </div>
+    <a href="#secaoRelacoes">
+      <img src="./img/down-arrow.svg" class="nav-arrow" alt="Icone de flecha para baixo, para navegação">
+    </a>
   </section>
 
 
-  <section class="content content-relacoes bg-green">
+  <!-- RELACOES BETA -->
+  <section id="secaoRelacoes" class="content content-relacoes bg-green">
     <div class="content__header display-mobile">
       <img src="./img/logo/mini-lab.png" class="img-responsive" alt="">
     </div>
@@ -105,8 +117,10 @@
 
         <div class="content-img display-mobile">
           <div>
-            <img src="./img/doors/02.png" class="img-responsive content-img__porta" alt="Porta com cor verde">
-            <p>Ver o estudo completo</p>
+            <a href="#secaoGeracao">
+              <img src="./img/doors/02.png" class="img-responsive content-img__porta" alt="Porta com cor verde">
+              <p>Ver o estudo completo</p>
+            </a>
           </div>
         </div>
 
@@ -145,10 +159,14 @@
       </div>
       <a href="http://consumoteca.com.br" class="content-footer__link">www.consumoteca.com.br</a>
     </div>
+    <a href="#secaoGeracoes">
+        <img src="./img/down-arrow.svg" class="nav-arrow" alt="Icone de flecha para baixo, para navegação">
+      </a>
   </section>
 
-
-  <section class="content content-geracao bg-pink">
+  
+  <!-- GERACAO Z -->
+  <section id="secaoGeracoes" class="content content-geracao bg-pink">
     <div class="content__header display-mobile">
       <img src="./img/logo/mini-lab.png" class="img-responsive" alt="">
     </div>
@@ -177,7 +195,7 @@
       </div>
 
       <div class="content-img display-desktop">
-        <div>
+        <div> 
           <img src="./img/doors/03.png" class="img-responsive content-img__porta" alt="Porta com cor rosa">
           <p>Ver o estudo completo</p>
         </div>
@@ -197,6 +215,7 @@
     </div>
   </section>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="pacote.js"></script>
 </body>
 </html>
