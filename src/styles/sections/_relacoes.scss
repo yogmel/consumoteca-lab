@@ -24,8 +24,12 @@
         flex-direction: column;
       }
       h2 {
+        @media screen and (max-width: $medium-screen) {
+          margin-left: 15rem;
+        }
         @media screen and (max-width: $tablet-screen) {
           margin-bottom: 1rem;
+          margin-left: 0;
         }
       }
       &-dois {
