@@ -16,14 +16,17 @@ header {
         @media screen and (max-width: $tablet-screen) {
           width: 70%;
           max-width: 340px;
+          margin-left: 0;
         }
       }
       &:last-child {
         @media screen and (max-width: $tablet-screen) {
           position: relative;
           top: -8rem;
-          max-width: 185px;
+          max-width: 10rem;
           margin-bottom: -7rem;
+          margin-top: 8rem;
+          margin-left: 2rem;
         }
       }
     }
