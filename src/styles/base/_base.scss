@@ -33,3 +33,12 @@ a {
     display: none;
   }
 }
+
+.content-desc {
+  &__title {
+    margin-left: -10rem;
+  }
+  @media screen and (max-width: $medium-screen) {
+    margin-left: 3rem;
+  }
+}
