@@ -39,6 +39,9 @@ a {
     margin-left: -10rem;
   }
   @media screen and (max-width: $medium-screen) {
-    margin-left: 3rem;
+    margin-left: 0rem;
+  }
+  @media screen and (max-width: $portrait-screen) {
+    margin-left: 0;
   }
 }

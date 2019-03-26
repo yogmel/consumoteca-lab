@@ -37,6 +37,7 @@
       max-width: 340px;
       @media screen and (max-width: $tablet-screen) {
         flex-direction: column-reverse;
+        margin: 0 auto;
       }
     }
   }
